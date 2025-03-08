@@ -11,9 +11,8 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
 
-        // Sorteio do número aleatório
-        let numeroAleatorio = Math.random() * numeroMaximo;
-        numeroAleatorio = Math.floor(numeroAleatorio) + 1;
+        // Sorteio do número aleatório entre 1 e o valor máximo (inclusive)
+        let numeroAleatorio = Math.floor(Math.random() * numeroMaximo) + 1;
 
         // Exibe o número sorteado
         document.getElementById('resultado-valor').innerText = numeroAleatorio;
