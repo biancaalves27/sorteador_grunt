@@ -1,11 +1,18 @@
 document.addEventListener('DOMContentLoaded', function() {
     const inputNumeroMaximo = document.getElementById('numero-maximo');
 
-    // Impedir que o usuário digite mais de 60000
+    // Impedir que o usuário digite um número maior que 60.000
     inputNumeroMaximo.addEventListener('input', function() {
         let valor = parseInt(inputNumeroMaximo.value);
+
+        // Verifica se o valor ultrapassou o limite e ajusta para 60.000
         if (valor > 60000) {
             inputNumeroMaximo.value = 60000;
+        }
+        
+        // Evita que o usuário insira valores não inteiros, ajustando ao valor inteiro mais próximo
+        if (valor !== parseInt(valor)) {
+            inputNumeroMaximo.value = parseInt(valor);
         }
     });
 
@@ -15,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         let numeroMaximo = parseInt(inputNumeroMaximo.value);
 
-        // Valida se o número é válido
+        // Valida se o número está dentro do intervalo de 2 a 60.000
         if (isNaN(numeroMaximo) || numeroMaximo < 2 || numeroMaximo > 60000) {
             alert('Por favor, insira um número válido entre 2 e 60.000.');
             return;
