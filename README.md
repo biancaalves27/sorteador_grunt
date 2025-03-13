@@ -1,8 +1,8 @@
-SORTEADOR DE NÚMEROS
+# SORTEADOR DE NÚMEROS
 
 Este é um projeto simples de um sorteador de números aleatórios, desenvolvido utilizando HTML, CSS e JavaScript. O projeto foi automatizado com o uso do Grunt e testado manualmente para garantir seu funcionamento.
 
-FUNCIONALIDADES
+## FUNCIONALIDADES
 
 O usuário pode definir um número máximo para o sorteio.
 
@@ -16,17 +16,17 @@ O resultado é exibido na tela.
 
 Validação de entrada para evitar valores fora do intervalo permitido.
 
-TECNOLOGIAS UTILIZADAS
+## TECNOLOGIAS UTILIZADAS
 
-HTML5
+**HTML5**
 
-CSS3
+**CSS3**
 
-JavaScript (DOM e Math.random())
+**JavaScript (DOM e Math.random())**
 
-Grunt para automação de tarefas
+**Grunt para automação de tarefas**
 
-COMO EXECUTAR O PROJETO
+## COMO EXECUTAR O PROJETO
 
 Clone o repositório:
 
@@ -36,7 +36,7 @@ Navegue até o diretório do projeto:
 
 cd sorteador
 
-Instale as dependências:
+## Instale as dependências:
 
 npm install
 
@@ -46,13 +46,13 @@ grunt
 
 Abra o arquivo index.html no navegador ou utilize um servidor local.
 
-TESTES
+## TESTES
 
 Foi realizado um teste funcional manual para garantir que o sorteio ocorra corretamente dentro dos limites estabelecidos.
 
 Testes envolveram a inserção de valores inválidos para verificar a validação do sistema.
 
-CONTRIBUIÇÃO
+## CONTRIBUIÇÃO
 
 Se quiser contribuir, siga os passos abaixo:
 
