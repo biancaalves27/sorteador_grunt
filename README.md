@@ -38,11 +38,11 @@ Verificar se o número sorteado está dentro do intervalo válido (entre 1 e o n
 Verificar se o sistema alerta quando o valor inserido for menor que 2, com a mensagem:
 "Por favor, insira um número válido entre 2 e 600.000."
 
-**3** Validação de número inválido acima do limite:
+**3.** Validação de número inválido acima do limite:
 Verificar se o sistema alerta quando o valor inserido for maior que 600.000, com a mensagem:
 "O valor máximo permitido é 600.000."
 
-**4** Validação do sorteio:
+**4.** Validação do sorteio:
 Verificar se o número sorteado realmente fica dentro do intervalo de 1 até o número máximo informado.
 
 Ação de envio do formulário:
