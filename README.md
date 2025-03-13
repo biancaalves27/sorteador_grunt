@@ -51,8 +51,8 @@ Testar se, ao clicar no botão "Sortear número", o número sorteado é mostrado
 ## Contribuições
 Se você deseja contribuir com este projeto, sinta-se à vontade para fazer um fork do repositório e enviar um pull request.
 
-Faça um fork deste repositório.
-Crie uma nova branch (git checkout -b minha-nova-branch).
-Faça suas alterações e commit (git commit -am 'Adicionando nova funcionalidade').
-Envie a branch (git push origin minha-nova-branch).
-Abra um pull request.
+- Faça um fork deste repositório.
+- Crie uma nova branch (git checkout -b minha-nova-branch).
+- Faça suas alterações e commit (git commit -am 'Adicionando nova funcionalidade').
+- Envie a branch (git push origin minha-nova-branch).
+- Abra um pull request.
