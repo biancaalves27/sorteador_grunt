@@ -20,7 +20,7 @@ Este é um projeto simples de um sorteador de números aleatórios. O usuário p
 
 1. Clone este repositório para o seu ambiente local:
    ```bash
-   git clone https://github.com/SEU_USUARIO/sorteador.git
+   git clone [https://github.com/biancaalves27/sorteador_grunt.git]
 
 Abra o arquivo index.html em seu navegador.
 
